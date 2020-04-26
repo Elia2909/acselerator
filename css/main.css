@@ -169,6 +169,9 @@
     .result__list{
         display: grid;
     }
+    .partners__img{
+        width: 100px;
+    }
     
 }
 @media screen and (max-width:750px){
@@ -233,7 +236,7 @@
     .footer__top-contentn, .footer__center-content{
         flex-direction: column;
         justify-content: center;
-        transform: translateX(45%);
+        transform: translateX(50%);
     }
     .footer__down-content{
         flex-direction: column;
@@ -253,4 +256,10 @@
             height: auto;
             
         }
-}
+        .accordion-block__title{
+            max-width: 280px;
+        }
+        .result__img img{
+            width: 300px;
+        }
+    }
