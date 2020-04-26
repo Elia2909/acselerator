@@ -1,0 +1,256 @@
+@media screen and (max-width:1492px){
+    .lesson-program__top-content::after,
+    .lesson-program__top-content::before{
+        display: none;
+    }
+    .result__top-content:after,
+    .result__top-content:before{
+        display: none;
+    }
+    .slick-next.slick-arrow::after{
+        right: -2rem;
+    }
+    .programm__choose-content{
+        display:flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width:1276px){
+    .startup-contenr__img{
+        width: 500px;
+    }
+    html{
+        font-size: 7px;
+    }
+    .advantages-content__img{
+        display: none;
+    }
+    .advantages-content{
+        display:flex;
+        justify-content: space-around;
+    }
+    .slick-next.slick-arrow::after{
+        right: 4rem;
+    }
+    .result__title{
+        display: inline;
+    }
+    .result__li{
+        display: inline;
+    }
+    .result__list{
+        display: inline;
+    }
+    .result__subtitle{
+        display: inline;
+    }
+    .footer__center-content,.footer__down-content{
+        justify-content: space-around;
+    }
+    .footer__top-contentn{
+        justify-content: center;
+    }
+}
+@media screen and (max-width:1100px){
+    .container{
+        overflow: hidden;
+    }
+    .check-list__contant{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .startup-contenr__img{
+        width: 400px;
+    }
+    .check-list__book img{
+        width: 100%;
+    }
+    html{
+        font-size: 6px;
+    }
+    .title img {
+        display: none;
+    }
+    
+    .adventages-content__img{
+        display: none;
+    }
+    .small-way__top-content img{
+        display: none;
+    }
+    .section-email__top-content::after{
+        display: none;
+    }
+    .startup-what-is-it__down-content:nth-child(2){
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+        padding: 0;
+    }
+    .startup-what-is-it__down-content{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+    }
+    .startup-what-is-it__bloc-info{
+        margin: 0rem 0rem 2rem 0rem;
+    }
+    .programm__block-info::after{
+        display: none;
+    }
+    .lesson-program__down-content{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .lesson-program__block-info::after{
+        display: none;
+    }
+    .lesson-program__pidpis{
+        display: none;
+    }
+    .question__content::after{
+        display: none;
+    }
+    .submit__email{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .button__email{
+        display: inline-block;
+    }
+    .input__email{
+       padding: 2rem 12.3rem 2rem 3.3rem ;
+       margin: 0rem 0rem 1.5rem 0rem;
+    }
+}
+@media screen and (max-width:831px){
+    html{
+        font-size: 5px;
+    }
+    .result__img img{
+        width: 400px;
+    }
+    .small-way__line{
+        display: none;
+    }
+    .small-way__text-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .small-way__text-block{
+        padding: 0;
+        margin-bottom: 2rem;
+    }
+    .small-way__text-container__down{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .small-way__text-block__down-text{
+        padding: 0;
+        margin-bottom: 2rem;
+    }
+    .slick-next.slick-arrow::after{
+        right: 8rem;
+    }
+    .result__list{
+        display: grid;
+    }
+    
+}
+@media screen and (max-width:750px){
+    html{
+        font-size: 4px;
+    }
+    .decotation-dots{
+        display: none;
+    }
+    .section-startup .container:before,
+    .section-startup .container:after{
+        display: none;
+    }
+    .icon-menu{
+        display: block;
+        font-size: 8rem;
+    }
+    .burger{
+        display: none;
+        flex-direction: column;
+        transform: translatex(-50%);
+    }
+    .header-down{
+        position: relative;
+        padding-bottom: 50px;
+    }
+    .header-down button{
+        
+        border: none;
+        background: #fff;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .header-down__menu{
+        flex-direction: column;
+    }
+    .header-down__button{
+        display: none;
+    }
+    .header-down__menu-text{
+        margin: 2rem;
+    }
+    .burger.active{
+        display: block !important;
+    }
+    .view-list{
+        transform: translateX(-80%);
+    }
+    .advantages-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .adventages-content__list-content{
+        margin: 3rem;
+    }
+    .header-down img{
+        width: 200px;
+        height: auto;
+    }
+    .footer__top-contentn, .footer__center-content{
+        flex-direction: column;
+        justify-content: center;
+        transform: translateX(45%);
+    }
+    .footer__down-content{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:550px){
+        .startup-contenr__img{
+            position: relative;
+            opacity: 0.5;
+        }
+        .startup-content__text{
+            position: absolute;
+            z-index: 1;
+        }
+        .header-down img{
+            width: 130px;
+            height: auto;
+            
+        }
+}

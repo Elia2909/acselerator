@@ -166,6 +166,7 @@ header{
     padding: 1rem;
     display: none;
     position: absolute;
+    z-index: 2;
 }
 .header-down__menu-text a{
     color: black;
@@ -442,11 +443,7 @@ header{
     padding-top: 4.4rem;
     flex-direction: row-reverse;
 }
-.startup-contenr__img{
-    width: 100%;
-    height: auto;
 
-}
 .advantages{
     padding-top: 9rem;
     padding-bottom:1.3rem;
@@ -751,7 +748,7 @@ header{
     font-weight: 500;
     background-color:#2C5BA4;
     border-radius: 100%;
-    transform: translate(10%, -30%);
+    transform: translate(0, -30%);
     right: 0;
     text-align: center;
     
@@ -776,8 +773,8 @@ header{
 .lesson-program__top-content:after{
     position: absolute;
     content: '';
-    top: -0.5rem;
-    right: -4rem;
+    top: -1rem;
+    right: 0;
     height: 15.5rem;
     width: 0.2rem;
     background-color: black;
@@ -786,8 +783,8 @@ header{
 .lesson-program__top-content:before{
     position: absolute;
     content: '';
-    top: 1rem;
-    right: 0rem;
+    top: -2rem;
+    right: 2rem;
     height: 10.9rem;
     width: 0.2rem;
     background-color: black;
@@ -991,8 +988,8 @@ header{
     height: 6.3rem;
     width: 6.3rem;
     background-size: 6.3rem 6.3rem;
-    left: -4rem;
-    top: 19rem;
+    left: -1.5rem;
+    top: 50%;
 }
 .slick-next.slick-arrow::after{
     content: url('../img/Group\ 59.png');
@@ -1001,6 +998,7 @@ header{
     width: 6.3rem;
     background-size: 6.3rem 6.3rem;
     right: -4rem;
+    top: 50%;
     
 }
 .slick-prev .slick-arrow{
@@ -1008,7 +1006,7 @@ header{
 }
 .result__slider.slick-initialized.slick-slider{
     display: flex;
-    align-items: ;
+    align-items: center ;
 }
 .result__slider.slick-initialized.slick-slider button{
     background: transparent;
@@ -1032,8 +1030,8 @@ header{
 .section-email__top-content::after{
     content: url('../img/Page\ 1.png');
     position: absolute;
-    top: -3rem;
-    right: 0;
+    top: -4rem;
+    right:0;
 }
 .submit__email{
     padding: 6rem 0rem 9.4rem 0rem;
@@ -1087,6 +1085,7 @@ header{
     background: transparent;
     border: transparent;
     color: transparent;
+    outline: none;
 }
 .slick-slider{
     outline: none !important;
@@ -1155,4 +1154,10 @@ header{
     display: flex;
     justify-content: center;
     padding: 8.5rem 0rem 2.1rem 0rem;
+}
+.burger{
+    display: flex;
+}
+.icon-menu{
+    display: none;
 }
